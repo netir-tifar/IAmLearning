@@ -13,6 +13,7 @@ int main ()
 	stack <char> stack;
 	int i = 0;
 	stack.push(s[i]);
+	//if there's an unbalanced pair stack won't be empty
 	while (i < len && !stack.empty())
 	{
 		
